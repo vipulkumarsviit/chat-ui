@@ -1,0 +1,1328 @@
+{
+    "sessions": [
+        {
+            "createdAt": 1589199019599,
+            "updatedAt": 1590385680128,
+            "id": "6ba60473-c39e-4f64-b7b9-cc0c108b1bbf",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589199019623,
+                    "updatedAt": 1589199019623,
+                    "id": "e78b5217-877e-405d-8465-83d94c838387",
+                    "conversationType": "SYSTEM",
+                    "message": "Hello, This is plugo support agent, Facing problem while using PlugO?",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589199019630,
+                    "updatedAt": 1589199019630,
+                    "id": "cdffe981-203c-4cc5-8550-0ae42685ef89",
+                    "conversationType": "SYSTEM",
+                    "message": "Choose one of the options",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589199021153,
+                    "updatedAt": 1589199021153,
+                    "id": "ef39f893-07ef-4495-8692-e0374cd00cfe",
+                    "conversationType": "USER",
+                    "message": "Unable to rent power bank?",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589199021176,
+                    "updatedAt": 1589199021176,
+                    "id": "e2e5ae51-2000-4059-b8cd-00d5cea3e17d",
+                    "conversationType": "SYSTEM",
+                    "message": "It seems you haven't paid the security deposit. please pay the security deposit from plan section form our app",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589199021187,
+                    "updatedAt": 1589199021187,
+                    "id": "da584e03-a3d6-4e36-a5a2-75f09d33637c",
+                    "conversationType": "SYSTEM",
+                    "message": "Are you satisfied with the our conversation",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589199021198,
+                    "updatedAt": 1589199021198,
+                    "id": "552838d3-f333-4b49-8903-9dbdc2776878",
+                    "conversationType": "SYSTEM",
+                    "message": "Please select one of the options",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589199023437,
+                    "updatedAt": 1589199023437,
+                    "id": "1c7f4dec-c983-43b2-97d3-a27a65965d69",
+                    "conversationType": "USER",
+                    "message": "Need further help",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589199023464,
+                    "updatedAt": 1589199023464,
+                    "id": "f7d08b84-e3ac-4664-9b4d-546f2f759a66",
+                    "conversationType": "SYSTEM",
+                    "message": "We are sorry that we was unable to resolve your issue. would you like to get further assistance from our customer support team directly",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589199023483,
+                    "updatedAt": 1589199023483,
+                    "id": "b459a909-2a52-4b95-80a6-315ffb1cecb0",
+                    "conversationType": "SYSTEM",
+                    "message": "Are you satisfied with the our conversation",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589199023498,
+                    "updatedAt": 1589199023498,
+                    "id": "e8319ad6-41d5-463a-a727-307f040e7095",
+                    "conversationType": "SYSTEM",
+                    "message": "Please select one of the options",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        },
+        {
+            "createdAt": 1589200063668,
+            "updatedAt": 1590385680137,
+            "id": "7fc1fbc6-7c9a-4524-8d90-81ac631b6fe3",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589200063682,
+                    "updatedAt": 1589200063682,
+                    "id": "a706195b-2e0d-4ff9-b105-b0d10f9e4d2b",
+                    "conversationType": "SYSTEM",
+                    "message": "Hello, This is plugo support agent, Facing problem while using PlugO?",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200063689,
+                    "updatedAt": 1589200063689,
+                    "id": "c0ceae1c-5ac5-477a-a5ed-59316fbb4aed",
+                    "conversationType": "SYSTEM",
+                    "message": "Choose one of the options",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200065534,
+                    "updatedAt": 1589200065534,
+                    "id": "4de4cb19-6d45-4136-bbb3-0baf14b5c620",
+                    "conversationType": "USER",
+                    "message": "Unable to rent power bank?",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200065637,
+                    "updatedAt": 1589200065637,
+                    "id": "c8aad793-a886-4854-a611-220cd00528e5",
+                    "conversationType": "SYSTEM",
+                    "message": "It seems you haven't paid the security deposit. please pay the security deposit from plan section form our app",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200065647,
+                    "updatedAt": 1589200065647,
+                    "id": "5549cfca-dc7d-4a64-9e2e-cd0354c43bde",
+                    "conversationType": "SYSTEM",
+                    "message": "Are you satisfied with the our conversation",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200065656,
+                    "updatedAt": 1589200065656,
+                    "id": "d5d0b159-0ed1-4ae8-91e2-873cdc45cb7f",
+                    "conversationType": "SYSTEM",
+                    "message": "Please select one of the options",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200067903,
+                    "updatedAt": 1589200067903,
+                    "id": "462a047c-39d9-43e9-b071-ab2bba715277",
+                    "conversationType": "USER",
+                    "message": "Need further help",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200067911,
+                    "updatedAt": 1589200067911,
+                    "id": "b50c448e-669e-47fc-9a58-6affc695f41d",
+                    "conversationType": "SYSTEM",
+                    "message": "We are sorry that we was unable to resolve your issue. would you like to get further assistance from our customer support team directly",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        },
+        {
+            "createdAt": 1589200073723,
+            "updatedAt": 1590385680137,
+            "id": "07f75b9d-2d78-4b18-bcd9-123ec45b94da",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589200073747,
+                    "updatedAt": 1589200073747,
+                    "id": "0d5f4a06-13af-4ece-8ab4-9ca58b7ecc3d",
+                    "conversationType": "SYSTEM",
+                    "message": "Hello, This is plugo support agent, Facing problem while using PlugO?",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200073757,
+                    "updatedAt": 1589200073757,
+                    "id": "aae9fc74-cbac-4311-bf63-08bc972409a6",
+                    "conversationType": "SYSTEM",
+                    "message": "Choose one of the options",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200076634,
+                    "updatedAt": 1589200076634,
+                    "id": "6ad94d36-43cb-4d59-9e3b-292e2375fc4e",
+                    "conversationType": "USER",
+                    "message": "Unable to rent power bank?",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200076657,
+                    "updatedAt": 1589200076657,
+                    "id": "6907d020-725c-4922-bf5b-f78d957630ad",
+                    "conversationType": "SYSTEM",
+                    "message": "It seems you haven't paid the security deposit. please pay the security deposit from plan section form our app",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200076668,
+                    "updatedAt": 1589200076668,
+                    "id": "fcff3978-1874-46bc-bf69-0a1b93bfe133",
+                    "conversationType": "SYSTEM",
+                    "message": "Are you satisfied with the our conversation",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200076678,
+                    "updatedAt": 1589200076678,
+                    "id": "3a74ed05-b42e-4781-80d9-0db8b56325d0",
+                    "conversationType": "SYSTEM",
+                    "message": "Please select one of the options",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200078348,
+                    "updatedAt": 1589200078348,
+                    "id": "9478f70c-49ee-4f2e-9841-5863e23d3c71",
+                    "conversationType": "USER",
+                    "message": "I am good for now",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200078356,
+                    "updatedAt": 1589200078356,
+                    "id": "03fa3bfb-8179-40ff-a2f7-ade783f995ce",
+                    "conversationType": "SYSTEM",
+                    "message": "We appritiate your response.",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        },
+        {
+            "createdAt": 1589200118361,
+            "updatedAt": 1590385680139,
+            "id": "654cafa9-d1d4-4963-af0c-183090f6c72f",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589200118383,
+                    "updatedAt": 1589200118383,
+                    "id": "d1fe2226-9985-4294-bdb6-267b32dbfc77",
+                    "conversationType": "SYSTEM",
+                    "message": "Hello, This is plugo support agent, Facing problem while using PlugO?",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200118391,
+                    "updatedAt": 1589200118391,
+                    "id": "05665f11-bf00-4a65-bff1-0960bc0f7545",
+                    "conversationType": "SYSTEM",
+                    "message": "Choose one of the options",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200120058,
+                    "updatedAt": 1589200120058,
+                    "id": "8be54c99-8935-4fc5-a081-92e47a8a45f5",
+                    "conversationType": "USER",
+                    "message": "Unable to rent power bank?",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200120077,
+                    "updatedAt": 1589200120077,
+                    "id": "9a9d9d3e-b8de-4890-a4d2-9ef533cc1e4a",
+                    "conversationType": "SYSTEM",
+                    "message": "It seems you haven't paid the security deposit. please pay the security deposit from plan section form our app",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200120092,
+                    "updatedAt": 1589200120092,
+                    "id": "af44d9e4-6e9b-442f-91bf-81a78e5a3768",
+                    "conversationType": "SYSTEM",
+                    "message": "Are you satisfied with the our conversation",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200120102,
+                    "updatedAt": 1589200120102,
+                    "id": "74a37892-0c86-4b45-bab4-8c77055da8d9",
+                    "conversationType": "SYSTEM",
+                    "message": "Please select one of the options",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        },
+        {
+            "createdAt": 1589200209836,
+            "updatedAt": 1590385680140,
+            "id": "a2bf39d1-ea4d-4f06-b635-3a99d4a9de2e",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589200209860,
+                    "updatedAt": 1589200209860,
+                    "id": "8c7cec62-d692-459b-9937-25bcd55a06fb",
+                    "conversationType": "SYSTEM",
+                    "message": "Hello, This is plugo support agent, Facing problem while using PlugO?",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200209874,
+                    "updatedAt": 1589200209874,
+                    "id": "3e3261bc-4522-4789-a169-6a7d54a24154",
+                    "conversationType": "SYSTEM",
+                    "message": "Choose one of the options",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200211308,
+                    "updatedAt": 1589200211308,
+                    "id": "86f4871d-872f-4cc4-8290-f92d4eb2554e",
+                    "conversationType": "USER",
+                    "message": "Unable to rent power bank?",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200211416,
+                    "updatedAt": 1589200211416,
+                    "id": "a733dfa6-d522-43e8-ab6d-105481e64666",
+                    "conversationType": "SYSTEM",
+                    "message": "It seems you haven't paid the security deposit. please pay the security deposit from plan section form our app",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200216317,
+                    "updatedAt": 1589200216317,
+                    "id": "208abef3-edf6-4cb7-9c33-79f0ca66d27a",
+                    "conversationType": "USER",
+                    "message": "Need further help",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200216340,
+                    "updatedAt": 1589200216340,
+                    "id": "961440ab-adca-482e-8856-a1907fb09539",
+                    "conversationType": "SYSTEM",
+                    "message": "We are sorry that we was unable to resolve your issue. would you like to get further assistance from our customer support team directly",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        },
+        {
+            "createdAt": 1589200219087,
+            "updatedAt": 1590385680141,
+            "id": "5ed51ea4-aa36-4dd1-ae1d-1ad206a5e5c2",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589200219112,
+                    "updatedAt": 1589200219112,
+                    "id": "611f5577-43ec-4f54-bb6f-04d0acd7bbda",
+                    "conversationType": "SYSTEM",
+                    "message": "Hello, This is plugo support agent, Facing problem while using PlugO?",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200219118,
+                    "updatedAt": 1589200219118,
+                    "id": "8f5d15bc-407e-4b28-a26e-4732131c47c1",
+                    "conversationType": "SYSTEM",
+                    "message": "Choose one of the options",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200220607,
+                    "updatedAt": 1589200220607,
+                    "id": "041d40b9-6d52-490a-8a21-32756b8b916c",
+                    "conversationType": "USER",
+                    "message": "Unable to rent power bank?",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200220631,
+                    "updatedAt": 1589200220631,
+                    "id": "6d4e5762-e29c-4a8a-bfaf-d3f5617659d9",
+                    "conversationType": "SYSTEM",
+                    "message": "It seems you haven't paid the security deposit. please pay the security deposit from plan section form our app",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200222589,
+                    "updatedAt": 1589200222589,
+                    "id": "506771be-11fe-436f-9cb0-b1ab893b0134",
+                    "conversationType": "USER",
+                    "message": "Need further help",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200222607,
+                    "updatedAt": 1589200222607,
+                    "id": "9466d95e-cefd-4dbd-97ec-d5267ad30786",
+                    "conversationType": "SYSTEM",
+                    "message": "We are sorry that we was unable to resolve your issue. would you like to get further assistance from our customer support team directly",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        },
+        {
+            "createdAt": 1589200434044,
+            "updatedAt": 1590385680142,
+            "id": "29052806-c018-465d-b2bd-9268036893eb",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589200437803,
+                    "updatedAt": 1589200437803,
+                    "id": "620bff82-d01e-4915-8eb7-788aff2b4ed1",
+                    "conversationType": "USER",
+                    "message": "Unable to rent power bank?",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200437931,
+                    "updatedAt": 1589200437931,
+                    "id": "67523098-a395-4011-b5a0-46d450fb2630",
+                    "conversationType": "SYSTEM",
+                    "message": "It seems you haven't paid the security deposit. please pay the security deposit from plan section form our app",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200441997,
+                    "updatedAt": 1589200441997,
+                    "id": "ede4b8e0-4297-42ec-8a2b-ed31bc9f4e08",
+                    "conversationType": "USER",
+                    "message": "I am good for now",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200442018,
+                    "updatedAt": 1589200442018,
+                    "id": "da5a1ef1-0299-4ea1-bf96-c9d2b890788e",
+                    "conversationType": "SYSTEM",
+                    "message": "We appritiate your response.",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        },
+        {
+            "createdAt": 1589200445464,
+            "updatedAt": 1590385680143,
+            "id": "866dea60-de0f-466a-9938-0590c7c9b335",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589200451618,
+                    "updatedAt": 1589200451618,
+                    "id": "0abab68c-92b5-412f-8dbb-caa7af827139",
+                    "conversationType": "USER",
+                    "message": "Unable to rent power bank?",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200451642,
+                    "updatedAt": 1589200451642,
+                    "id": "7dab9df1-063e-4758-bf01-5086054a6008",
+                    "conversationType": "SYSTEM",
+                    "message": "It seems you haven't paid the security deposit. please pay the security deposit from plan section form our app",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200453294,
+                    "updatedAt": 1589200453294,
+                    "id": "9edde4ec-6de5-488f-a607-2aa8a2707d71",
+                    "conversationType": "USER",
+                    "message": "I am good for now",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200453340,
+                    "updatedAt": 1589200453340,
+                    "id": "20ccccaa-cb93-45f4-a385-8340e77a80e0",
+                    "conversationType": "SYSTEM",
+                    "message": "We appritiate your response.",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        },
+        {
+            "createdAt": 1589200455873,
+            "updatedAt": 1590385680144,
+            "id": "f582c3c3-f717-478d-bb9c-00e76990eeb3",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589200458411,
+                    "updatedAt": 1589200458411,
+                    "id": "fb4a97fc-611c-425f-a38f-46dacca29a6c",
+                    "conversationType": "USER",
+                    "message": "Session not ended after return",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200458473,
+                    "updatedAt": 1589200458473,
+                    "id": "759d866f-9810-407d-b6d9-5c68b2bd3203",
+                    "conversationType": "SYSTEM",
+                    "message": "We didn't found any active rental for your account.",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200458499,
+                    "updatedAt": 1589200458499,
+                    "id": "1c642340-17bb-47c5-b7ef-18bc4829b740",
+                    "conversationType": "SYSTEM",
+                    "message": "Your last rental was started at: 08-42-2019 09:11:50 ended at: 08-44-2019 09:11:10. from Plugo Hub, Diamond district ,Domlur.",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200458507,
+                    "updatedAt": 1589200458507,
+                    "id": "179477af-b4ea-4d04-899f-a9b5cb8c7c4a",
+                    "conversationType": "SYSTEM",
+                    "message": "Please enable notification to get real time update about your rental, payments etc.",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        },
+        {
+            "createdAt": 1589200468388,
+            "updatedAt": 1590385680145,
+            "id": "3969ccaf-2bb4-4e46-9c7f-5e7f6385f145",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589200470487,
+                    "updatedAt": 1589200470487,
+                    "id": "d4dbd85c-d1a7-4d6e-88f9-685913466d39",
+                    "conversationType": "USER",
+                    "message": "Session not ended after return",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200470499,
+                    "updatedAt": 1589200470499,
+                    "id": "428e7bb0-6335-43a7-9f92-19e0df643950",
+                    "conversationType": "SYSTEM",
+                    "message": "We didn't found any active rental for your account.",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200470523,
+                    "updatedAt": 1589200470523,
+                    "id": "e1c982fd-a097-4af0-931d-ab70f0e70b79",
+                    "conversationType": "SYSTEM",
+                    "message": "Your last rental was started at: 08-42-2019 09:11:50 ended at: 08-44-2019 09:11:10. from Plugo Hub, Diamond district ,Domlur.",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200470531,
+                    "updatedAt": 1589200470531,
+                    "id": "5b428255-5fab-4a04-a81e-2b492368001e",
+                    "conversationType": "SYSTEM",
+                    "message": "Please enable notification to get real time update about your rental, payments etc.",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200472675,
+                    "updatedAt": 1589200472675,
+                    "id": "f524bfdd-9e4b-4923-af49-d059a913f7dc",
+                    "conversationType": "USER",
+                    "message": "I am good for now",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200472686,
+                    "updatedAt": 1589200472686,
+                    "id": "7cd2b0f5-5464-4843-a370-52c991c68213",
+                    "conversationType": "SYSTEM",
+                    "message": "We appritiate your response.",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        },
+        {
+            "createdAt": 1589200800486,
+            "updatedAt": 1590385680146,
+            "id": "7424192f-29e9-47af-ac06-f5c4c45ef085",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589200802735,
+                    "updatedAt": 1589200802735,
+                    "id": "37229b1c-2788-450f-9303-3750f5c98578",
+                    "conversationType": "USER",
+                    "message": "Unable to rent power bank?",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200802896,
+                    "updatedAt": 1589200802896,
+                    "id": "daea0fa6-e6be-46d5-9f92-295e9d4344db",
+                    "conversationType": "SYSTEM",
+                    "message": "It seems you haven't paid the security deposit. please pay the security deposit from plan section form our app",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200806012,
+                    "updatedAt": 1589200806012,
+                    "id": "e108465c-8507-44a7-9160-610b1394acce",
+                    "conversationType": "USER",
+                    "message": "I am good for now",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200806061,
+                    "updatedAt": 1589200806061,
+                    "id": "acc37eb7-9c9e-425b-8176-8b77cdb17d3b",
+                    "conversationType": "SYSTEM",
+                    "message": "We appritiate your response.",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200806103,
+                    "updatedAt": 1589200806103,
+                    "id": "802259e1-d4ad-44fd-b383-a0d1488d08b1",
+                    "conversationType": "SYSTEM",
+                    "message": "Thanks, have a Good Day! happy charging.",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        },
+        {
+            "createdAt": 1589200814783,
+            "updatedAt": 1590385680147,
+            "id": "dd7d521f-f091-4b1c-bd4e-4e1047550f59",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589200816273,
+                    "updatedAt": 1589200816273,
+                    "id": "593a4ca1-8c9a-425d-b493-b6bc40e3a368",
+                    "conversationType": "USER",
+                    "message": "I did not get my refund",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589200827242,
+                    "updatedAt": 1589200827242,
+                    "id": "47f400f4-95a9-4dc1-b75c-16ef259454ce",
+                    "conversationType": "SYSTEM",
+                    "message": "Use the following steps to initiate refund for activation fees:\n-From the menu on the top left corner.\n-Go to wallet\n-Click on ‘Refund Activation Fees’ and type the description\n- Submit\nIt will take up to 24 hours to refund your activation fees from our end and it might take 2 to 7 business days to reflect in your account.\nPlease ensure about following before raising the ticket:\n1. You should not have any active rentals\n2. You should not have any negative balance in PlugO Wallet",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        },
+        {
+            "createdAt": 1589201412099,
+            "updatedAt": 1590385680148,
+            "id": "aa44e987-f070-40af-a3a6-97d255cf7757",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589201414844,
+                    "updatedAt": 1589201414844,
+                    "id": "42477247-1063-47dc-9ecd-f202301a496c",
+                    "conversationType": "USER",
+                    "message": "Unable to rent power bank?",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589201415032,
+                    "updatedAt": 1589201415032,
+                    "id": "c301ffd5-cb1a-4eb2-94ac-4fa1102627f9",
+                    "conversationType": "SYSTEM",
+                    "message": "It seems you haven't paid the security deposit. please pay the security deposit from plan section form our app",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589201418935,
+                    "updatedAt": 1589201418935,
+                    "id": "e352256c-8e74-41fb-970b-4ef2fe03ec9b",
+                    "conversationType": "USER",
+                    "message": "I am good for now",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589201418955,
+                    "updatedAt": 1589201418955,
+                    "id": "987fa1b9-3ba9-48ea-81fb-59dde427b3c8",
+                    "conversationType": "SYSTEM",
+                    "message": "We appritiate your response.",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589201419011,
+                    "updatedAt": 1589201419011,
+                    "id": "67f58444-87d4-4a1b-a082-46f56382fb78",
+                    "conversationType": "SYSTEM",
+                    "message": "Thanks, have a Good Day! happy charging.",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        },
+        {
+            "createdAt": 1589201608412,
+            "updatedAt": 1590385680149,
+            "id": "302ce60c-2864-41bd-b676-09e6babc5ef4",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589201610582,
+                    "updatedAt": 1589201610582,
+                    "id": "1a9bae1e-5ad2-4a71-893f-4e30c1a311a6",
+                    "conversationType": "USER",
+                    "message": "Unable to rent power bank?",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589201611847,
+                    "updatedAt": 1589201611847,
+                    "id": "14cdebd6-79c4-416f-b1cd-cc4a4d30ea68",
+                    "conversationType": "SYSTEM",
+                    "message": "Sorry for the inconvenience, we have verified your account details, and everything looks good. Please ensure that the box is online (LEDs on box are on and not blinking). If the box if offline, please try another nearby store to rent a power bank.\nPlease refer our [FAQs](https://plugo.io/faq/) or contact our support team at +918047112182 if the problem persist.",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        },
+        {
+            "createdAt": 1589273066938,
+            "updatedAt": 1590385680150,
+            "id": "c881a8d9-640c-42d0-b71b-0555ab25261c",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589273088281,
+                    "updatedAt": 1589273088281,
+                    "id": "10bf4c7d-cd5e-48ce-a5b7-dcf772fc8921",
+                    "conversationType": "USER",
+                    "message": "I did not get my refund",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589273120195,
+                    "updatedAt": 1589273120195,
+                    "id": "b17f6734-7f67-4dc1-874a-8c2f5f872004",
+                    "conversationType": "SYSTEM",
+                    "message": "Use the following steps to initiate refund for activation fees:\n-From the menu on the top left corner.\n-Go to wallet\n-Click on ‘Refund Activation Fees’ and type the description\n- Submit\nIt will take up to 24 hours to refund your activation fees from our end and it might take 2 to 7 business days to reflect in your account.\nPlease ensure about following before raising the ticket:\n1. You should not have any active rentals\n2. You should not have any negative balance in PlugO Wallet",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        },
+        {
+            "createdAt": 1589273339041,
+            "updatedAt": 1590385680152,
+            "id": "34d1c364-2273-4f91-a34c-74eee27b84cc",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589273347818,
+                    "updatedAt": 1589273347818,
+                    "id": "8dee3f61-3696-409d-aaaa-1ba0df3c0616",
+                    "conversationType": "USER",
+                    "message": "I did not get my refund",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589273777469,
+                    "updatedAt": 1589273777469,
+                    "id": "1cbb6e05-9e71-48dc-bac4-b8b3ab83c0a9",
+                    "conversationType": "SYSTEM",
+                    "message": "Use the following steps to initiate refund for activation fees:\n-From the menu on the top left corner.\n-Go to wallet\n-Click on ‘Refund Activation Fees’ and type the description\n- Submit\nIt will take up to 24 hours to refund your activation fees from our end and it might take 2 to 7 business days to reflect in your account.\nPlease ensure about following before raising the ticket:\n1. You should not have any active rentals\n2. You should not have any negative balance in PlugO Wallet",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589277728213,
+                    "updatedAt": 1589277728213,
+                    "id": "32502df9-d9be-476a-9caf-af0d6a68f840",
+                    "conversationType": "USER",
+                    "message": "I am good for now",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589277728282,
+                    "updatedAt": 1589277728282,
+                    "id": "93157f5e-8d02-46f0-a6be-05ff3a45b34c",
+                    "conversationType": "SYSTEM",
+                    "message": "We appritiate your response.",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589277728293,
+                    "updatedAt": 1589277728293,
+                    "id": "1d2aa73e-a282-4219-91d3-f4f595a803f0",
+                    "conversationType": "SYSTEM",
+                    "message": "Thanks, have a Good Day! happy charging.",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        },
+        {
+            "createdAt": 1589277732109,
+            "updatedAt": 1590385680153,
+            "id": "250c4ddc-c42a-4157-8ddc-3f895767b80f",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589277738510,
+                    "updatedAt": 1589277738510,
+                    "id": "cd36526e-9818-446a-9d11-1bd47b059e1b",
+                    "conversationType": "USER",
+                    "message": "I did not get my refund",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        },
+        {
+            "createdAt": 1589277982644,
+            "updatedAt": 1590385680154,
+            "id": "31558b42-6732-4be9-9af8-06b00d682bd7",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589277990643,
+                    "updatedAt": 1589277990643,
+                    "id": "c42be921-9efd-4579-8ca6-61f543790fa7",
+                    "conversationType": "USER",
+                    "message": "I did not get my refund",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        },
+        {
+            "createdAt": 1589282146889,
+            "updatedAt": 1590385680154,
+            "id": "9d8da770-0b32-4125-8c27-e6f8c581c105",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589282156105,
+                    "updatedAt": 1589282156105,
+                    "id": "1ed14d19-36ee-4d20-9acc-04b0fd924d3f",
+                    "conversationType": "USER",
+                    "message": "I did not get my refund",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        },
+        {
+            "createdAt": 1589292278817,
+            "updatedAt": 1590385680155,
+            "id": "45f43de1-e43a-4bb2-a1e8-398a79b491dc",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589292281024,
+                    "updatedAt": 1589292281024,
+                    "id": "85bb2057-146a-4e06-8e0c-8b8786a00963",
+                    "conversationType": "USER",
+                    "message": "I did not get my refund",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589293209279,
+                    "updatedAt": 1589293209279,
+                    "id": "554172b4-ee62-449c-9418-dfb5bf81a916",
+                    "conversationType": "USER",
+                    "message": "I did not get my refund",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589293234575,
+                    "updatedAt": 1589293234575,
+                    "id": "112c9f06-9579-4463-a381-43b2851bd61a",
+                    "conversationType": "USER",
+                    "message": "I did not get my refund",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589293280876,
+                    "updatedAt": 1589293280876,
+                    "id": "df45c7c0-75d8-4db7-8ddb-a49171a6c90f",
+                    "conversationType": "USER",
+                    "message": "I did not get my refund",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589293426070,
+                    "updatedAt": 1589293426070,
+                    "id": "05823fc3-5c2c-4a75-ac4d-3d8e6c1bb4f1",
+                    "conversationType": "USER",
+                    "message": "I did not get my refund",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589293530223,
+                    "updatedAt": 1589293530223,
+                    "id": "f22a3a2e-f577-4c64-840f-8ceecf881b2d",
+                    "conversationType": "USER",
+                    "message": "I did not get my refund",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        },
+        {
+            "createdAt": 1589198996335,
+            "updatedAt": 1590385680156,
+            "id": "36dfc940-3418-4686-ab89-be9b06f3fa91",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589198996354,
+                    "updatedAt": 1589198996354,
+                    "id": "d79471a7-1b86-4f8c-925c-c040583f6424",
+                    "conversationType": "SYSTEM",
+                    "message": "Hello, This is plugo support agent, Facing problem while using PlugO?",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589198996361,
+                    "updatedAt": 1589198996361,
+                    "id": "8760c656-168d-4244-a43c-274520808547",
+                    "conversationType": "SYSTEM",
+                    "message": "Choose one of the options",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589198999130,
+                    "updatedAt": 1589198999130,
+                    "id": "2b781900-4048-4f3f-a4fb-4f1c0e88abb4",
+                    "conversationType": "USER",
+                    "message": "Unable to rent power bank?",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589198999245,
+                    "updatedAt": 1589198999245,
+                    "id": "45054622-dbad-4c4c-b8ee-377f48b9383c",
+                    "conversationType": "SYSTEM",
+                    "message": "It seems you haven't paid the security deposit. please pay the security deposit from plan section form our app",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589198999251,
+                    "updatedAt": 1589198999251,
+                    "id": "7fd5e3ba-9e70-4649-b405-f3e88a52b3d3",
+                    "conversationType": "SYSTEM",
+                    "message": "Are you satisfied with the our conversation",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589198999261,
+                    "updatedAt": 1589198999261,
+                    "id": "cbed763b-ebb3-4ff9-8867-8e8565042fcc",
+                    "conversationType": "SYSTEM",
+                    "message": "Please select one of the options",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589199004128,
+                    "updatedAt": 1589199004128,
+                    "id": "1a1d3195-f7c3-477d-9a80-08df53b72d99",
+                    "conversationType": "USER",
+                    "message": "I am good for now",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589199004184,
+                    "updatedAt": 1589199004184,
+                    "id": "9814f356-a791-40ed-8c75-6576fa148c9b",
+                    "conversationType": "SYSTEM",
+                    "message": "We appritiate your response.",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        }
+    ]
+}
+
+{
+    "sessions": [
+        {
+            "createdAt": 1589865398850,
+            "updatedAt": 1590385980129,
+            "id": "bbc5cf9c-b71e-4ee4-94ce-89382e8ea6ea",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589865530957,
+                    "updatedAt": 1589865530957,
+                    "id": "5dadfbc6-a9bd-47a7-9761-c0cd851ff129",
+                    "conversationType": "USER",
+                    "message": "I did not get my refund",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1589865613300,
+                    "updatedAt": 1589865613300,
+                    "id": "ba6fb1fe-26c0-4908-bdd1-3727734d8606",
+                    "conversationType": "USER",
+                    "message": "I did not get my refund",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        },
+        {
+            "createdAt": 1589870048846,
+            "updatedAt": 1590385980142,
+            "id": "742dafe8-94c5-4ce6-a3d7-3882ac14f699",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1589870132779,
+                    "updatedAt": 1589870132779,
+                    "id": "ce6b2797-49f0-444f-bb57-b370e4d2a989",
+                    "conversationType": "USER",
+                    "message": "I did not get my refund",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        }
+    ]
+}
+
+{
+    "sessions": [
+        {
+            "createdAt": 1590386143564,
+            "updatedAt": 1590386154308,
+            "id": "40cfcb9b-14d4-4a3e-8660-e526a0933ee8",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1590386151560,
+                    "updatedAt": 1590386151560,
+                    "id": "2e30971a-866e-4391-8c8a-21d46a27e14f",
+                    "conversationType": "USER",
+                    "message": "Unable to rent power bank?",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1590386151978,
+                    "updatedAt": 1590386151978,
+                    "id": "d466b828-328e-4c21-8ef2-8ee5ad03cef9",
+                    "conversationType": "SYSTEM",
+                    "message": "Activation Fees not paid. Please pay fully refundable Activation Fees from the plan section on our app to use hassle free Plugo Services.",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1590386154138,
+                    "updatedAt": 1590386154138,
+                    "id": "2131a1b3-396b-4280-85bb-4a5b947901f0",
+                    "conversationType": "USER",
+                    "message": "I am good for now",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1590386154263,
+                    "updatedAt": 1590386154263,
+                    "id": "e894f0c2-5138-4402-b256-586d7d791be2",
+                    "conversationType": "SYSTEM",
+                    "message": "We appritiate your response.",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1590386154296,
+                    "updatedAt": 1590386154296,
+                    "id": "74180a84-5601-4bcb-96d0-e19ac88f2818",
+                    "conversationType": "SYSTEM",
+                    "message": "Thank you for choosing Plugo, have a good day! Happy charging.",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        },
+        {
+            "createdAt": 1590386159043,
+            "updatedAt": 1590386163431,
+            "id": "2c4c2d29-be50-47d6-8b81-13d337afcc31",
+            "userId": "acab83f1-cb45-4506-bd9b-1a66a7235c38",
+            "sessionState": "CLOSED",
+            "conversations": [
+                {
+                    "createdAt": 1590386160793,
+                    "updatedAt": 1590386160793,
+                    "id": "c0b89380-eeb8-4f3f-9818-444beb68feeb",
+                    "conversationType": "USER",
+                    "message": "Session not ended after return",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1590386160851,
+                    "updatedAt": 1590386160851,
+                    "id": "13f89419-b464-48a3-b1e0-57de5759ee4e",
+                    "conversationType": "SYSTEM",
+                    "message": "No Active rental found on your account.",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1590386160893,
+                    "updatedAt": 1590386160893,
+                    "id": "9b0b80b1-47a0-46c0-8b96-b419516f803d",
+                    "conversationType": "SYSTEM",
+                    "message": "Your last rental started at **08-11-2019 09:42:50 AM** and ended at **08-11-2019 09:44:10 AM** from the store Plugo Hub.",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1590386160908,
+                    "updatedAt": 1590386160908,
+                    "id": "a3a846a4-cbf5-46c9-84c4-b84f6dda8149",
+                    "conversationType": "SYSTEM",
+                    "message": "Please turn app notifications on to get real-time updates about your rentals, payments, etc.",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1590386163386,
+                    "updatedAt": 1590386163386,
+                    "id": "ae8d8bce-b482-4dc5-a6d3-32bd6736208f",
+                    "conversationType": "USER",
+                    "message": "Need further help",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1590386163409,
+                    "updatedAt": 1590386163409,
+                    "id": "161635b2-e6f3-4930-9eed-cae2f12efd54",
+                    "conversationType": "SYSTEM",
+                    "message": "We are sorry that we was unable to resolve your issue. would you like to get further assistance from our customer support team directly",
+                    "deleted": false,
+                    "active": true
+                },
+                {
+                    "createdAt": 1590386163420,
+                    "updatedAt": 1590386163420,
+                    "id": "e160a4e5-940e-46df-ab36-1764c1503310",
+                    "conversationType": "SYSTEM",
+                    "message": "Thank you for choosing Plugo, have a good day! Happy charging.",
+                    "deleted": false,
+                    "active": true
+                }
+            ],
+            "deleted": true,
+            "active": false
+        }
+    ]
+}
+
+
+
+

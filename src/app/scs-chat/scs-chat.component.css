@@ -1,0 +1,51 @@
+.chat-container::-webkit-scrollbar {
+    width: .5em;
+  }
+   
+  .chat-container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 123, 255, 0.3);
+  }
+   
+  .chat-container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 123, 255,0.8);
+    outline: 1px solid rgb(0, 123, 255);
+  }
+
+
+  .fade-in{
+    -webkit-animation: fadein .5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein .5s; /* Firefox < 16 */
+     -ms-animation: fadein .5s; /* Internet Explorer */
+      -o-animation: fadein .5s; /* Opera < 12.1 */
+         animation: fadein .5s;
+  }
+
+
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

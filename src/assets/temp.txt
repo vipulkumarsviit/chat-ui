@@ -1,0 +1,123 @@
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/stores/${userId}`
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/stores/${userId}?startDate=${startDate}&endDate=${endDate}`
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/stores/${userId}`
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/stores/cities/${userId}`)
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/stores/cities/${userId}`)
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/cities/${userId}`,
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/users/${userId}/${this.props.city}`),
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/users/weeks/${userId}/${this.props.city}`),
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/users/totalUsers/weeks/${userId}/${this.props.city}`)
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/income/total/${this.props.city}/${userId}`),
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/income/weekly/${this.props.city}/${userId}`),
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/totalDespensedPowerbanks/${this.props.city}/${userId}`),
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/box_with_powerbank_stats/${userId}?key=BOX&value=${boxId}`, {
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/customerdefaults/${this.props.city}/${userId}`,
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/customerdefaults/${nextProps.city}/${userId}`)
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/customerdefaults/${this.props.city}/${userId}`, 
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/customerdefaults/${nextProps.city}/${userId}`)
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/${this.props.city}/pincodes/${userId}`
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/${nextProps.city}/pincodes/${userId}`
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/monthly-report/startDate/${this.state.startDate}/endDate/${this.state.endDate}`,
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/sales/leads`, {
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/${this.props.pincode}/stores/${userId}`
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/${nextProps.pincode}/stores/${userId}`
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/powerbankandbox/report`,
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/user/merchant/revenue/${userid}/`
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/transactions/city/${userId}`
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/transactions/${this.props.city}/pincode/${userId}?startDate=${this.props.startDate}&endDate=${this.props.endDate}`
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/transactions/${nextProps.city}/pincode/${userId}?startDate=${this.props.startDate}&endDate=${this.props.endDate}`
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/transactions/${this.props.city}/pincode/${userId}`
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/transactions/${nextProps.city}/pincode/${userId}`
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/transactions/${this.props.city}/${this.state.pincode}/store/${userId}?startDate=${this.props.startDate}&endDate=${this.props.endDate}`,
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/transactions/${this.props.city}/${this.state.pincode}/store/${userId}`,
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/securitydeposit/city`, {
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/securitydeposit/${this.props.city}/pincode`, {
+Axios.get(`${API_CONFIG.PLUGO_REPORTS_API_HOST}/report/user/subscribed/`,
+
+
+axios.get(`${API_CONFIG.HOST}/users/logout`, {
+Axios.get(`${API_CONFIG.HOST}/users/search?mobile=${inputValue}&lastName=${inputValue}`, {
+Axios.get(`${API_CONFIG.HOST}/users/search?mobile=${inputValue}&lastName=${inputValue}`, {
+Axios.get(`${API_CONFIG.HOST}/users/search?mobile=${this.state.searchText}&lastName=${this.state.searchText}`, {
+Axios.get(`${API_CONFIG.HOST}/users/search?mobile=${inputValue}&lastName=${inputValue}`, {
+Axios.get(`${API_CONFIG.HOST}/users/${userId}/transactions/consolidated`, {
+Axios.get(`${API_CONFIG.HOST}/users/${userId}/wallets`, {
+Axios.get(`${API_CONFIG.HOST}/users/${userId}/subscriptions`, {
+Axios.get(`${API_CONFIG.HOST}/stores/search?mobile=${inputValue}&name=${inputValue}`, {
+Axios.get(`${API_CONFIG.HOST}/stores/search?mobile=${inputValue}&name=${inputValue}`, {
+Axios.get(`${API_CONFIG.HOST}/stores/${this.props.storeId}/boxes`, {
+Axios.get(`${API_CONFIG.HOST}/stores/${this.props.storeId}/operating_hours`, {
+Axios.get(`${API_CONFIG.HOST}/stores/search?mobile=${this.state.searchText}&lastName=${this.state.searchText}&pincode=${this.state.searchText}`, {
+Axios.get(`${API_CONFIG.HOST}/stores/${rentStoreId}`, {
+Axios.get(`${API_CONFIG.HOST}/stores/${returnStoreId}`, {
+Axios.get(`${API_CONFIG.HOST}/stores/${rentStoreId}`, {
+Axios.get(`${API_CONFIG.HOST}/stores/${returnStoreId}`, {
+Axios.get(`${API_CONFIG.HOST}/stores/${rentStoreId}`, {
+Axios.get(`${API_CONFIG.HOST}/stores/${rentStoreId}`, {
+Axios.post(`${API_CONFIG.HOST}/stores/${this.props.storeId}/operating_hours`, reformattedArray, {
+Axios.post(`${API_CONFIG.HOST}/stores/onboard`, mobileNo)
+Axios.post(`${API_CONFIG.HOST}/stores/otp/verify`, verifyData)
+Axios.post(`${API_CONFIG.HOST}/stores/${this.props.storeId}/operating_hours`, reformattedArray, {
+Axios.put(`${API_CONFIG.HOST}/stores/${userId}`, registerStore, {
+Axios.put(`${API_CONFIG.HOST}/stores/${oldData.id}/update`, editStoreData, {
+Axios.put(`${API_CONFIG.HOST}/stores/${this.state.storeId}/update`, createStoreData, {
+Axios.get(this.state.account ? `${API_CONFIG.HOST}/coupons?size=2000&page=${page}&account=${this.state.account}` : `${API_CONFIG.HOST}/coupons?size=2000&page=${page}`, {
+Axios.get(`${API_CONFIG.HOST}/coupons/${this.props.selectedCouponId}/mappings`, {
+Axios.get(`${API_CONFIG.HOST}/coupons/${this.props.selectedCouponId}/rules?size=1000`, {
+Axios.get(`${API_CONFIG.HOST}/coupons/valid?userId=${userId}`, {
+Axios.post(`${API_CONFIG.HOST}/coupons/${this.props.selectedCouponId}/mappings`, couponMappingData, {
+Axios.post(`${API_CONFIG.HOST}/coupons/${this.props.selectedCouponId}/rules`, couponRulesData, {
+Axios.post(`${API_CONFIG.HOST}/coupons`, couponData, {
+Axios.put(`${API_CONFIG.HOST}/coupons/${this.props.selectedCouponId}/rules/${couponRuleId}`,
+Axios.delete(`${API_CONFIG.HOST}/coupons/${couponId}`,
+Axios.delete(`${API_CONFIG.HOST}/coupons/${this.props.selectedCouponId}/rules/${couponRuleId}`,
+Axios.get(`${API_CONFIG.HOST}/role/all`, {
+Axios.get(`${API_CONFIG.HOST}/role-permission/all`, {
+Axios.get(`${API_CONFIG.HOST}/permission/all`, {
+Axios.post(`${API_CONFIG.HOST}/role-permission/create`, assignRolePermission, {
+Axios.delete(`${API_CONFIG.HOST}/role-permission/delete/${rolePermission.id}`, {
+Axios.get(`${API_CONFIG.HOST}/store/all`, {
+Axios.get(`${API_CONFIG.HOST}/boxes/${this.state.sSixCharID}`, {
+Axios.get(`${API_CONFIG.HOST}/store/all`, {
+Axios.get(`${API_CONFIG.HOST}/partners/request`, {
+Axios.get(`${API_CONFIG.HOST}/invoice/all`, {
+Axios.get(`${API_CONFIG.HOST}/store/all`, {
+Axios.get(`${API_CONFIG.HOST}/store/group/all`, {
+Axios.get(`${API_CONFIG.HOST}/powerbanks/deviceid/${powerBankId}`, {
+Axios.get(`${API_CONFIG.HOST}/powerbanks/deviceid/${powerBankId}`, {
+Axios.get(`${API_CONFIG.HOST}/rentals/history?userId=${userId}`, {
+Axios.get(`${API_CONFIG.HOST}/rentals/active?userId=${userId}`, {
+Axios.get(`${API_CONFIG.HOST}/lostPowerbank/${this.props.userId}/chargeRequest`, {
+Axios.get(`${API_CONFIG.HOST}/powerbanks/deviceid/${powerBankId}`, {
+Axios.get(`${API_CONFIG.HOST}/powerbanks/deviceid/${powerBankId}`, {
+Axios.get(`${API_CONFIG.HOST}/accounts`, {
+Axios.get(`${API_CONFIG.HOST}/accounts/${this.props.accountId}/members`, {
+axios.post(`${API_CONFIG.HOST}/auth/login`, {
+Axios.post(`${API_CONFIG.HOST}/store/create`, createStoreData, {
+Axios.post(`${API_CONFIG.HOST}/uploads?title=${title[0]}&type=${type}&parent=STORE&parentId=${this.props.storeId}`, data, {
+Axios.post(`${API_CONFIG.HOST}/create/store/group`, storeGroupData, {
+Axios.post(`${API_CONFIG.HOST}/assign/group/store`, storeGrpIds, {
+Axios.post(`${API_CONFIG.HOST}/accounts`, accountData, {
+Axios.post(`${API_CONFIG.HOST}/accounts/${this.props.accountId}/plan`, plan, {
+Axios.post(`${API_CONFIG.HOST}/accounts/${this.props.accountId}/member`, memberData, {
+Axios.post(`${API_CONFIG.HOST}/accounts/${this.props.accountId}/members/upload`, data, {
+Axios.put(`${API_CONFIG.HOST}/boxes/${this.state.boxId}`, storeGroupData, {
+Axios.put(`${API_CONFIG.HOST}/boxes/${this.state.box_id}`, storeGroupData, {
+Axios.put(`${API_CONFIG.HOST}/box/${this.state.updateBoxId}/${!this.state.boxStatus}`, null, {
+Axios.put(`${API_CONFIG.HOST}/accounts/${this.props.accountId}/plan`, plan, {
+
+
+
+
+
+Axios.get(`https://api.postalpincode.in/pincode/${this.state.pincode}`)
+
+
+axios.post('/sales/leads', newSalesData)
+
+
+
+
+
+
+
