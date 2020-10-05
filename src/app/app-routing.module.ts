@@ -5,7 +5,7 @@ import { ScsChatComponent } from './scs-chat/scs-chat.component';
 
 const routes: Routes = [
   {
-    path: '', redirectTo: 'store-onboard', pathMatch: 'full'
+    path: '', redirectTo: 'scs', pathMatch: 'full'
   },
   {
     path: 'scs', component: ScsChatComponent

@@ -1,97 +1,75 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
 import { PlugoService } from '../plugo.service';
-import * as CryptoJS from 'crypto-js';
 @Component({
   selector: 'app-scs-chat',
   templateUrl: './scs-chat.component.html',
   styleUrls: ['./scs-chat.component.css']
 })
 export class ScsChatComponent implements OnInit {
-  chatSession: any;
-  currentCommands: Array<any> = [];
-  conversations: Array<any> = [];
-  addCommandForm: FormGroup;
-  allCommands: Array<any> = [];
-  encryptMode: boolean;
-  textToConvert: string;
-  password: string;
-  conversionOutput: string;
 
-  constructor(private plugoService: PlugoService, private fb: FormBuilder) {
-    this.encryptMode = true;
-    this.textToConvert = 'Vipul';
-    this.password = 'Kumar';
+  scale = false;
+  disabled = false;
+  query = '';
+  chatLogs = [];
+
+  constructor(private api: PlugoService) {
   }
 
   ngOnInit() {
-    this.convertText();
-    this.createCommandForm();
-    this.currentCommands = [];
-    this.conversations = [];
-    /* this.initializeChatSession();*/
-    this.getAllCommands();
 
   }
-  createCommandForm() {
-    this.addCommandForm = this.fb.group({
-      name: [null],
-      response: [null],
-      nextResponse: [null],
-      pid: [null]
-    });
-  }
-  onSubmit() {
-    console.log(this.addCommandForm.value);
-    this.plugoService.saveCommand(this.addCommandForm.value).subscribe((resp) => {
-      console.log(resp);
-      this.ngOnInit();
-    });
-  }
-  getAllCommands() {
-    this.plugoService.getAllCommands().subscribe((resp: any) => {
-      this.allCommands = resp;
-    });
-  }
-  initializeChatSession() {
-    this.plugoService.initializeChatSession().subscribe((resp) => {
 
-      this.chatSession = resp['sessionId'];
-      this.currentCommands = resp['commands'];
-      this.conversations = resp['conversations'];
-    });
+  onOpenChatWindow() {
+    this.chatLogs = [];
+    this.api.getRandomQuotes(Math.floor(Math.random() * 5) + 1).subscribe(
+      data => {
+        this.generate_message('Hi I can generate random quotes.', 'user');
+        this.generate_message('Type anything in textbox I will return a quote.', 'user');
+        this.toggleScale();
+      },
+      error => {
+        this.generate_message('Make sure Chat API is up and running', 'user');
+        this.disabled = true;
+        this.toggleScale();
+      });
+
+  }
+  toggleScale() {
+    this.scale = !this.scale;
   }
 
-  getChildCommands(command: any) {
-    this.plugoService.getChildCommands(this.chatSession, command.id).subscribe((resp: any) => {
-      this.chatSession = resp['sessionId'];
-      this.currentCommands = resp['commands'];
-      this.conversations = [...this.conversations, ...resp['conversations']];
-    });
+  onSendMEssage(e) {
+    e.preventDefault();
+    this.processUserQuery();
   }
-  reset() {
-    this.ngOnInit();
-    this.initializeChatSession();
-  }
-
-
-
-  changeMode() {
-    this.encryptMode = this.encryptMode ? false : true;
-    this.textToConvert = '';
-  }
-
-  convertText() {
-    if (this.textToConvert.trim() === '' || this.password.trim() === '') {
-      this.conversionOutput = 'Please fill the textboxes.';
-      return;
-    } else {
-      if (this.encryptMode) {
-        this.conversionOutput = CryptoJS.AES.encrypt(this.textToConvert.trim(), this.password.trim()).toString();
-      } else {
-        this.conversionOutput = CryptoJS.AES.decrypt(this.textToConvert.trim(), this.password.trim()).toString(CryptoJS.enc.Utf8);
-      }
+  processUserQuery() {
+    const msg = this.query;
+    if (msg.trim() === '') {
+      return false;
     }
-    console.log(this.conversionOutput);
+
+    this.generate_message(msg, 'self');
+
+    this.api.getRandomQuotes(Math.floor(Math.random() * 5) + 1).subscribe(data => {
+      this.generate_message(data['message'], 'user');
+    },
+      error => {
+        this.generate_message('Something went wrong with API', 'user');
+      });
+  }
+
+  generate_message(msg, type) {
+    this.chatLogs.push({ msg, type });
+    if (type === 'self') {
+      this.query = '';
+    }
+    // $(".chat-logs").stop().animate({ scrollTop: $(".chat-logs")[0].scrollHeight }, 1000);
+  }
+  onChange(e) {
+    e.preventDefault();
+    if (e.keyCode === 13) {
+      this.processUserQuery();
+    }
+    return false;
   }
 }

@@ -1,0 +1,24 @@
+{
+    "quotes": [
+        {
+            "id": 1,
+            "message": "The world is a book, and those who do not travel read only a page."
+        },
+        {
+            "id": 2,
+            "message": "No valid plans for the future can be made by those who have no capacity for living now."
+        },
+        {
+            "id": 3,
+            "message": "Speak when you are angry and you will make the best speech you will ever regret. "
+        },
+        {
+            "id": 4,
+            "message": "Self-complacency is fatal to progress."
+        },
+        {
+            "id": 5,
+            "message": "What you do not want done to yourself, do not do to others."
+        }
+    ]
+}

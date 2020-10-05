@@ -1,112 +1,42 @@
-<div class="container-fluid">
-    <div class="row mt-5">
-        <div class="col-md-5"></div>
-        <div class="col-md-3 col-sm-12 col-xs-12 text-center">
-            <h3>Plugo Smart Support</h3>
-
-        </div>
-        <div class="col-md-4"></div>
-    </div>
+<div id="center-text">
+    <h2>ChatBox UI</h2>
+    <p>Click on the chat icon below to start</p>
 </div>
-<div class="container-fluid">
-    <div class="row mt-2">
-        <div class="col-md-5"></div>
-        <div class="col-md-3 col-sm-12 col-xs-12 chat-container border rounded"
-            style="height: 80vh; overflow-y: scroll;">
-            <div class="row mt-3">
-                <div class="col-sm-12">
-                    <div class="float-right">
-                        <button type="button" class="btn btn-primary" (click)="reset()">Start a Session</button>
-                        <br>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <div class="row system m-3 convrsation" *ngIf="conversations.length">
-                <div class="col-md-12">
-                    <div class="list-group">
-                        <div *ngFor="let command of conversations">
-                            <div class="row" *ngIf="command.conversationType === 'USER'">
-                                <div class="col-md-12">
-                                    <div class="mb-3  mr-1 float-right p-2 border rounded bg-primary text-white fade-in"
-                                        style="text-align: right;">
-                                        {{command.message}}</div>
-                                </div>
+<div id="body">
 
-                            </div>
-                            <div class="row" *ngIf="command.conversationType === 'SYSTEM'">
-                                <div class="col-md-11">
-                                    <div class="mb-3 float-left p-2 border rounded bg-primary text-white fade-in">
-                                        {{command.message}}</div>
-                                </div>
-                                <div class="col-md-1"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div id="chat-circle" class="btn btn-raised" [ngStyle]="{'display': !scale ? 'block' : 'none' }"
+        (click)="onOpenChatWindow()">
+        <div id="chat-overlay"></div>
+        <i class="material-icons">speaker_phone</i>
+    </div>
 
-            <div class="row system m-3 currentCommand" *ngIf="currentCommands && currentCommands.length">
-                <div class="col-md-10">
-                    <div class="list-group">
-                        <div *ngFor="let command of currentCommands">
-                            <div class="row">
-                                <div class="col-md-10" (click)="getChildCommands(command)">
-                                    <div class="mb-3 float-left p-2 border rounded fade-in">
-                                        {{command.response}}</div>
-                                </div>
-                            </div>
-                        </div>
+    <div class="chat-box" [ngStyle]="{'display': scale ? 'block' : 'none' }">
+        <div class="chat-box-header">
+            ChatBot
+            <span class="chat-box-close" (click)="toggleScale()"><i class="material-icons">close</i></span>
+        </div>
+        <div class="chat-box-body">
+            <div class="chat-box-overlay">
+            </div>
+            <div class="chat-logs">
+                <div [class]="'chat-msg '+ log.type" *ngFor="let log of chatLogs">
+                    <span class="msg-avatar">
+                        <img src="https://api.adorable.io/avatars/100/abott@adorable.png">
+                    </span>
+                    <div class="cm-msg-text">
+                        {{log.msg}}
                     </div>
                 </div>
-                <div class="col-md-2"></div>
             </div>
         </div>
-        <div class="col-md-4"></div><br>
-        <div class="col-md-6  col-sm-12 col-xs-12 border rounded mt-2 ml-2">
-
-            <div class="row">
-                <div class="col-md-12">
-                    <form [formGroup]="addCommandForm" (ngSubmit)="onSubmit()">
-                        <div class="form-group">
-                            <label for="name">Command Name</label>
-                            <input type="text" class="form-control" id="name" aria-describedby="nameHelp"
-                                formControlName="name" placeholder="Enter Command">
-                        </div>
-                        <div class="form-group">
-                            <label for="response">Response</label>
-                            <input type="text" class="form-control" id="response" aria-describedby="responseHelp"
-                                formControlName="response" placeholder="Enter response">
-                        </div>
-                        <div class="form-group">
-                            <label for="nextResponse">Next Reponse</label>
-                            <input type="text" class="form-control" id="nextResponse"
-                                aria-describedby="nextResponseHelp" formControlName="nextResponse"
-                                placeholder="Enter Next Reponse">
-                        </div>
-                        <div class="form-group" *ngIf="allCommands.length">
-                            <label for="pid">Select Parent command</label>
-                            <select class="form-control" id="pid" formControlName="pid">
-                                <option *ngFor="let item of allCommands" [value]="item.id">{{item.name}}</option>
-                            </select>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
-            </div>
+        <div class="chat-input">
+            <form
+                [title]="disabled ? 'Make sure Chat API is up and running': 'Type your message to get quotes'">
+                <input type="text" id="chat-input" [placeholder]="disabled ? 'Make sure Chat API is up and running': 'Type your message to get quotes'" [(ngModel)]="query"
+                    (keyup)="onChange($event)" name="query" [disabled]="disabled" />
+                <button type="button" [disabled]="disabled" class="chat-submit" id="chat-submit"
+                    (click)="onSendMEssage($event)"><i class="material-icons">send</i></button>
+            </form>
         </div>
     </div>
 </div>
-
-<!-- 
-Hello team, this is vipul. 
-I'm going to demo a poc build around a feature Plugo Smart Chat Support Agent. 
-This feature going to be introduced in next coming days into plugo customer app.
-By using this feature in our app we will be able to respond user queries in real time.
-Let's start the poc by sharing my screen
-
-
-
-
-
- -->
