@@ -21,10 +21,10 @@ export class ScsChatComponent implements OnInit {
 
   onOpenChatWindow() {
     this.chatLogs = [];
-    this.api.getRandomQuotes(Math.floor(Math.random() * 5) + 1).subscribe(
-      data => {
-        this.generate_message('Hi I can generate random quotes.', 'user');
-        this.generate_message('Type anything in textbox I will return a quote.', 'user');
+    this.api.getAnswer('Who is batman').subscribe(
+      resp => {
+        this.generate_message('Hi, I am Sakhi', 'user');
+        this.generate_message('I can respond to few basic question', 'user');
         this.toggleScale();
       },
       error => {
@@ -50,8 +50,12 @@ export class ScsChatComponent implements OnInit {
 
     this.generate_message(msg, 'self');
 
-    this.api.getRandomQuotes(Math.floor(Math.random() * 5) + 1).subscribe(data => {
-      this.generate_message(data['message'], 'user');
+    this.api.getAnswer(msg).subscribe(resp => {
+      if (resp && resp['answer']) {
+        this.generate_message(resp['answer'], 'user');
+      } else {
+        this.generate_message('I didn\'t understand that.', 'user');
+      }
     },
       error => {
         this.generate_message('Something went wrong with API', 'user');

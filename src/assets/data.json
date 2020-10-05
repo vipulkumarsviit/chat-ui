@@ -20,5 +20,12 @@
             "id": 5,
             "message": "What you do not want done to yourself, do not do to others."
         }
+    ],
+    "sakhi": [
+        {
+            "id": 1,
+            "query": "Who is batman",
+            "answer": "Bruce Wayne"
+        }
     ]
 }
